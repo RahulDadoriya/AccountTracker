@@ -1,0 +1,62 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="40dp" >
+
+        <ImageButton
+            android:id="@+id/imgBtnAccount"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#fff"
+            android:contentDescription="@string/acnt"
+            android:scaleType="center"
+            android:src="@drawable/acnt"
+            />
+
+        <ImageButton
+            android:id="@+id/imgBtnDep"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="0dp"
+            android:background="#fff"
+            android:contentDescription="@string/wrad"
+            android:scaleType="center"
+            android:src="@drawable/wrad" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="40dp" >
+
+        <ImageButton
+            android:id="@+id/imgBtnTrans"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#fff"
+            android:contentDescription="@string/tran"
+            android:scaleType="center"
+            android:src="@drawable/tran" />
+
+        <ImageButton
+            android:id="@+id/imgBtnSum"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="12dp"
+            android:background="#fff"
+            android:contentDescription="@string/sum"
+            android:scaleType="center"
+            android:src="@drawable/sum" />
+    </LinearLayout>
+
+</LinearLayout>
